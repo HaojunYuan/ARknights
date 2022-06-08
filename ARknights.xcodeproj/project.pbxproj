@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3002F3C2846898F0031D1AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3002F3B2846898F0031D1AE /* HomeView.swift */; };
-		D3002F40284697530031D1AE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3002F3F284697530031D1AE /* CardView.swift */; };
-		D3002F42284697860031D1AE /* OperatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3002F41284697860031D1AE /* OperatorsView.swift */; };
+		D3002F3C2846898F0031D1AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3002F3B2846898F0031D1AE /* ContentView.swift */; };
+		D3002F40284697530031D1AE /* AvatarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3002F3F284697530031D1AE /* AvatarCardView.swift */; };
+		D304E4462849C48600F248AF /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304E4452849C48600F248AF /* Operator.swift */; };
+		D304E448284C1B9B00F248AF /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304E447284C1B9B00F248AF /* PortraitView.swift */; };
+		D3297B17284EB1B50075AD1C /* AvatarCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3297B16284EB1B50075AD1C /* AvatarCards.swift */; };
+		D3297B19284EB3030075AD1C /* ArknightsCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3297B18284EB3030075AD1C /* ArknightsCards.swift */; };
+		D3297B1D284EFFFE0075AD1C /* ARknights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3297B1C284EFFFE0075AD1C /* ARknights.swift */; };
+		D3297B1F284F15080075AD1C /* PortraitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3297B1E284F15070075AD1C /* PortraitCardView.swift */; };
 		D396EBA02845D29000B34E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396EB9F2845D29000B34E4E /* AppDelegate.swift */; };
-		D396EBA22845D29000B34E4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396EBA12845D29000B34E4E /* ContentView.swift */; };
+		D396EBA22845D29000B34E4E /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396EBA12845D29000B34E4E /* ARView.swift */; };
 		D396EBA42845D29000B34E4E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D396EBA32845D29000B34E4E /* Experience.rcproject */; };
 		D396EBA62845D29100B34E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D396EBA52845D29100B34E4E /* Assets.xcassets */; };
 		D396EBA92845D29100B34E4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D396EBA82845D29100B34E4E /* Preview Assets.xcassets */; };
 		D396EBB32845D29200B34E4E /* ARknightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396EBB22845D29200B34E4E /* ARknightsTests.swift */; };
 		D396EBBD2845D29200B34E4E /* ARknightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396EBBC2845D29200B34E4E /* ARknightsUITests.swift */; };
 		D396EBBF2845D29200B34E4E /* ARknightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D396EBBE2845D29200B34E4E /* ARknightsUITestsLaunchTests.swift */; };
+		D3DD39702849839A002ADB9B /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD396F2849839A002ADB9B /* JSONHelper.swift */; };
+		D3DD3974284983AF002ADB9B /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD3971284983AF002ADB9B /* Order.swift */; };
+		D3DD3975284983AF002ADB9B /* Operators.json in Resources */ = {isa = PBXBuildFile; fileRef = D3DD3972284983AF002ADB9B /* Operators.json */; };
+		D3DD3976284983AF002ADB9B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD3973284983AF002ADB9B /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3002F3B2846898F0031D1AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		D3002F3F284697530031D1AE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		D3002F41284697860031D1AE /* OperatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsView.swift; sourceTree = "<group>"; };
+		D3002F3B2846898F0031D1AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3002F3F284697530031D1AE /* AvatarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCardView.swift; sourceTree = "<group>"; };
+		D304E4452849C48600F248AF /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		D304E447284C1B9B00F248AF /* PortraitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
+		D3297B16284EB1B50075AD1C /* AvatarCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCards.swift; sourceTree = "<group>"; };
+		D3297B18284EB3030075AD1C /* ArknightsCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArknightsCards.swift; sourceTree = "<group>"; };
+		D3297B1C284EFFFE0075AD1C /* ARknights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARknights.swift; path = Views/ARknights.swift; sourceTree = "<group>"; };
+		D3297B1E284F15070075AD1C /* PortraitCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitCardView.swift; sourceTree = "<group>"; };
 		D396EB9C2845D29000B34E4E /* ARknights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARknights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D396EB9F2845D29000B34E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D396EBA12845D29000B34E4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D396EBA12845D29000B34E4E /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		D396EBA32845D29000B34E4E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		D396EBA52845D29100B34E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D396EBA82845D29100B34E4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,6 +66,10 @@
 		D396EBB82845D29200B34E4E /* ARknightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARknightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D396EBBC2845D29200B34E4E /* ARknightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARknightsUITests.swift; sourceTree = "<group>"; };
 		D396EBBE2845D29200B34E4E /* ARknightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARknightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3DD396F2849839A002ADB9B /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		D3DD3971284983AF002ADB9B /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D3DD3972284983AF002ADB9B /* Operators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Operators.json; sourceTree = "<group>"; };
+		D3DD3973284983AF002ADB9B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +100,10 @@
 		D3002F3D284689960031D1AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D3002F3B2846898F0031D1AE /* HomeView.swift */,
-				D3002F3F284697530031D1AE /* CardView.swift */,
-				D3002F41284697860031D1AE /* OperatorsView.swift */,
-				D396EBA12845D29000B34E4E /* ContentView.swift */,
+				D3297B1A284EB3300075AD1C /* CardViews */,
+				D3002F3B2846898F0031D1AE /* ContentView.swift */,
+				D304E447284C1B9B00F248AF /* PortraitView.swift */,
+				D396EBA12845D29000B34E4E /* ARView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,8 +111,29 @@
 		D3002F3E2846973C0031D1AE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D3297B16284EB1B50075AD1C /* AvatarCards.swift */,
+				D304E4452849C48600F248AF /* Operator.swift */,
+				D3DD396F2849839A002ADB9B /* JSONHelper.swift */,
+				D3DD3972284983AF002ADB9B /* Operators.json */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D3297B1A284EB3300075AD1C /* CardViews */ = {
+			isa = PBXGroup;
+			children = (
+				D3002F3F284697530031D1AE /* AvatarCardView.swift */,
+				D3297B1E284F15070075AD1C /* PortraitCardView.swift */,
+			);
+			path = CardViews;
+			sourceTree = "<group>";
+		};
+		D3297B1B284EB35E0075AD1C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D3297B18284EB3030075AD1C /* ArknightsCards.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		D396EB932845D29000B34E4E = {
@@ -120,7 +159,11 @@
 		D396EB9E2845D29000B34E4E /* ARknights */ = {
 			isa = PBXGroup;
 			children = (
+				D3297B1C284EFFFE0075AD1C /* ARknights.swift */,
 				D396EB9F2845D29000B34E4E /* AppDelegate.swift */,
+				D3DD3973284983AF002ADB9B /* Menu.swift */,
+				D3DD3971284983AF002ADB9B /* Order.swift */,
+				D3297B1B284EB35E0075AD1C /* ViewModels */,
 				D3002F3E2846973C0031D1AE /* Models */,
 				D3002F3D284689960031D1AE /* Views */,
 				D396EBA32845D29000B34E4E /* Experience.rcproject */,
@@ -259,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DD3975284983AF002ADB9B /* Operators.json in Resources */,
 				D396EBA92845D29100B34E4E /* Preview Assets.xcassets in Resources */,
 				D396EBA62845D29100B34E4E /* Assets.xcassets in Resources */,
 			);
@@ -285,12 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3002F42284697860031D1AE /* OperatorsView.swift in Sources */,
-				D396EBA22845D29000B34E4E /* ContentView.swift in Sources */,
-				D3002F3C2846898F0031D1AE /* HomeView.swift in Sources */,
-				D3002F40284697530031D1AE /* CardView.swift in Sources */,
+				D396EBA22845D29000B34E4E /* ARView.swift in Sources */,
+				D3297B1F284F15080075AD1C /* PortraitCardView.swift in Sources */,
+				D3002F3C2846898F0031D1AE /* ContentView.swift in Sources */,
+				D3297B19284EB3030075AD1C /* ArknightsCards.swift in Sources */,
+				D3DD3974284983AF002ADB9B /* Order.swift in Sources */,
+				D304E448284C1B9B00F248AF /* PortraitView.swift in Sources */,
+				D3DD3976284983AF002ADB9B /* Menu.swift in Sources */,
+				D304E4462849C48600F248AF /* Operator.swift in Sources */,
+				D3002F40284697530031D1AE /* AvatarCardView.swift in Sources */,
+				D3297B1D284EFFFE0075AD1C /* ARknights.swift in Sources */,
 				D396EBA02845D29000B34E4E /* AppDelegate.swift in Sources */,
+				D3297B17284EB1B50075AD1C /* AvatarCards.swift in Sources */,
 				D396EBA42845D29000B34E4E /* Experience.rcproject in Sources */,
+				D3DD39702849839A002ADB9B /* JSONHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
