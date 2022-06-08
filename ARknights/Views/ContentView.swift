@@ -6,11 +6,11 @@ struct ContentView: View {
     
     //func to determine which list to show to the view
     func getShowList()->[AvatarCards.avatarCard]{
-        if type == "all"{
-            return cards.avatarCards
-        }else{
-            return cards.likedCards
-        }
+        return (type == "all" ? cards.avatarCards: cards.likedCards)
+    }
+    
+    func getTitle()->String{
+        return (type == "all" ? "干员选择": "我的收藏")
     }
 
     
@@ -32,7 +32,7 @@ struct ContentView: View {
                 .frame(maxWidth:.infinity)
                 .padding(.horizontal)
             }
-            .navigationTitle("干员选择")
+            .navigationTitle(getTitle())
         }
         .navigationViewStyle(.stack)
     }
